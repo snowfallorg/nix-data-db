@@ -16,7 +16,6 @@
           packages = [
             brotli
             nix-data-generator.defaultPackage.${system}
-            sqlite
           ];
         };
       });
