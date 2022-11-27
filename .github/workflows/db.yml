@@ -20,7 +20,6 @@ jobs:
         do
           RUST_LOG=nix_data_generator=trace nix --extra-experimental-features nix-command --extra-experimental-features flakes develop --command -- nix-data-generator -v $Line --src $Line 1>&2
           if [ -f "$Line/nixospkgs.db" ]; then
-            nix --extra-experimental-features nix-command --extra-experimental-features flakes develop --command -- sqlite3 ./$Line/nixospkgs.db 'VACUUM'
             nix --extra-experimental-features nix-command --extra-experimental-features flakes develop --command -- brotli ./$Line/nixospkgs.db -o ./$Line/nixospkgs.db.br -v -f 1>&2
           fi
         done
