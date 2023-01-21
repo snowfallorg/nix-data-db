@@ -73,11 +73,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1669589277,
-        "narHash": "sha256-wJZylriQvYRtDzcFayWp7XBRUOKucxxplPt7FUENftA=",
+        "lastModified": 1674334172,
+        "narHash": "sha256-LCKDnjjOVuIsXJwm7Kkt4HQDLdiCMh2PZXM4nmOOc/o=",
         "owner": "snowflakelinux",
         "repo": "nix-data-generator",
-        "rev": "604a42ee3816e624e88160a8b06ceb800c5d955b",
+        "rev": "bd32e39053a267d6d45546873d5566455bccc638",
         "type": "github"
       },
       "original": {
